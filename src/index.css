@@ -1,0 +1,78 @@
+:root {
+    /* Primary */
+    --verydarkblue: hsl(233, 47%, 7%);
+    --darkdesaturatedblue: hsl(244, 38%, 16%);
+    --softviolet: hsl(277, 64%, 61%);
+
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --slightlytransparentwhite75: hsla(0, 0%, 100%, 0.75);
+    --slightlytransparentwhite6: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 62.5%;
+        /* font-family: 'Karla', sans-serif; 
+    - Font size: 16px*/
+    font-family: 'DM Serif Display', serif;
+    /* background-color: var(--verydarkblue); */
+    /* color: var(--slightlytransparentwhite75); */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title, .local_time, .fibonacci, .result_title {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.title_h1 {
+    font-size: 3.5rem;
+}
+
+.local_time {
+    display: flex;
+    justify-content: center;
+}
+
+.time_title, .time, .result_title, .result {
+    font-size: 2.5rem;
+}
+
+.fibonacci {
+    display: flex;
+    justify-content: center;
+}
+
+.button-fibonacci, .button-refresh { 
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.title_h1, .result {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}

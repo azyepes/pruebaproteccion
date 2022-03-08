@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Fibonacci</title>
+</head>
+<body>
+    <div class="title">
+        <h1 class="title_h1">PRUEBA FIBONACCI - PROTECCIÓN SA</h1>
+    </div>
+    <div class="local_time">
+        <h2 class="time_title">La hora local es: </h2>
+        <p class="time" id="time"></p>
+    </div>
+    <div class="fibonacci">
+        <button class="button-fibonacci" onclick="calcularFibonacci()">Fibonacci</button>
+        <button class="button-refresh" onclick="location.reload(true)">Update Time</button>
+    </div>
+    <div class="results">
+        <h2 class="result_title">Resultado:</h2>
+        <p class="result" id="result"></p>
+    </div>
+    
+
+</body>
+<script src="./src/index.js"></script>
+</html>
