@@ -77,6 +77,11 @@ body {
     margin: 0 auto;
 }
 
+.result {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width: 660px) {
     .title_h1 {
         font-size: 2.5rem;
