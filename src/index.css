@@ -93,7 +93,7 @@ body {
 
 @media screen and (min-width: 768px) {
     .title_h1 {
-        font-size: 3.5rem;
+        font-size: 3.2rem;
     }
 
     .time_title, .time, .result_title, .result {
