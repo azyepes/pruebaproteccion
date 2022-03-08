@@ -25,6 +25,7 @@ const calcularFibonacci = () => {
     console.log(seedArray);
 
     const result = document.getElementById('result');
-    result.innerHTML = `La serie de Fibonacci es ${seedArray}`
+    result.innerHTML = `La serie de Fibonacci es:
+    ${seedArray}`
 }
 

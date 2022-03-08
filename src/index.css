@@ -76,3 +76,31 @@ body {
     height: auto;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 660px) {
+    .title_h1 {
+        font-size: 2.5rem;
+    }
+
+    .time_title, .time, .result_title, .result {
+        font-size: 1.5rem;
+    }
+
+    .button-fibonacci, .button-refresh { 
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .title_h1 {
+        font-size: 3.5rem;
+    }
+
+    .time_title, .time, .result_title, .result {
+        font-size: 2.5rem;
+    }
+
+    .button-fibonacci, .button-refresh { 
+        font-size: 2rem;
+    }
+}
