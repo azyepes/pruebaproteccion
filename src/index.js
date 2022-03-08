@@ -23,15 +23,15 @@ const calcularFibonacci = () => {
     console.log(seedArray);
 
     const result = document.getElementById('result');
-    result.innerHTML = "La serie de Fibonacci es: " + "<br>" + seedArray;
+    result.innerHTML = "La serie de Fibonacci es: "; // + "<br>" + seedArray
 
-    for (let i = 0; i < seedArray.length; i++) {
-        result.innerHTML = `${seedArray[i]}, `
-        if (i > 20) {
-            result.innerHTML = `\n ${seedArray[i]}, `;
-        } else if (i > 40) {
-            result.innerHTML = `\n ${seedArray[i]}, `;
-        }
-    }
+    // for (let i = 0; i < seedArray.length; i++) {
+    //     result.innerHTML = `${seedArray[i]}, `
+    //     if (i > 20) {
+    //         result.innerHTML = `\n ${seedArray[i]}, `;
+    //     } else if (i > 40) {
+    //         result.innerHTML = `\n ${seedArray[i]}, `;
+    //     }
+    // }
 }
 
