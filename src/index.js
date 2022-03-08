@@ -19,7 +19,7 @@ const calcularFibonacci = () => {
     };
 
     const result = document.getElementById('result');
-    result.innerHTML = "La serie de Fibonacci es: "; // + "<br>" + seedArray
+    result.innerHTML = "La serie de Fibonacci es: ";
 
     for (let i = 0; i < seedArray.length; i++) {
         result.innerHTML += `${seedArray[i]}, `;
